@@ -3,12 +3,33 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto; 
+  margin: 0 aut;
+}
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
 .container {
   width: 1440px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
+  
 
 
 }
@@ -21,6 +42,8 @@ h6 {
   color: #2e2f42;
   margin-top: 0;
 margin-bottom: 0;
+margin-left: auto;
+margin-right: auto;
   
 
 
@@ -40,7 +63,44 @@ p {
   margin-bottom: 0;
 
 }
+.section-2, .section-4 {
+  padding: 120px;
+  padding-bottom: 120px;
+}
 /* header */
+.header {
+  padding: 25px 0;
+  
+}
+header .container {
+  display: flex;
+}
+.header-nav {
+  display: flex;
+  margin-right: auto;
+}
+.header-link {
+  display: flex;
+  gap: 40px;
+  
+}
+.box-link-adress {
+  display: flex;
+  gap: 40px;
+ 
+  
+}
+
+
+
+.logo_header {
+  margin-left: 156px;
+}
+.studio_header {
+  margin-right:76px;
+}
+
+
 .studio_header {
   color: #2e2f42;
   font-family: Raleway, sans-serif;
@@ -67,6 +127,7 @@ p {
 /* telimail */
 .font_style_adrs {
   font-style: normal;
+  
 }
 
 .link-adress {
@@ -142,6 +203,8 @@ p {
 
 .fone {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 /* section 4 */
 
