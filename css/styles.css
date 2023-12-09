@@ -19,14 +19,26 @@ h4,
 h5,
 h6 {
   color: #2e2f42;
+  margin-top: 0;
+margin-bottom: 0;
+  
+
+
 }
 ul,
 ol {
   list-style-type: none;
   padding-left: 0;
-}
-a {
+  margin-top: 0;
+  margin-bottom: 0;
+ 
+}a {
   text-decoration: none;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+
 }
 /* header */
 .studio_header {
