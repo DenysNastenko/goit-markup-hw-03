@@ -3,6 +3,15 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+.container {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+
+
+}
 h1,
 h2,
 h3,
