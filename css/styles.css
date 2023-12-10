@@ -262,6 +262,8 @@ header .container {
 .item_list_folio {
   width: calc((100% - 24px * 2) / 3);
   padding-bottom: 32px;
+  border: 1px solid  #E7E9FC;
+
 }
 .list_title_folio {
   padding: 0px 16px;
