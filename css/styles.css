@@ -44,7 +44,6 @@ p {
   margin-bottom: 0;
 }
 
-
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -67,7 +66,6 @@ header .container {
   display: flex;
   gap: 40px;
   align-items: center;
-  
 }
 .box-link-adress {
   display: flex;
@@ -78,12 +76,7 @@ header .container {
 .logo_header {
   margin-left: 0;
   margin-right: 76px;
-  display: inline-flex;
-  align-items: center;
-}
-.studio_header {
-  
-}
+  display: inline-flex; align-items: cente
 
 .studio_header {
   color: #2e2f42;
