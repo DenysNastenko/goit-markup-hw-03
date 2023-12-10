@@ -7,14 +7,17 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 0 aut;
+
 }
 
 .container {
   max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 h1,
 h2,
 h3,
@@ -42,11 +45,15 @@ p {
   margin-bottom: 0;
 }
 .section-2,
+.section-3,
 .section-4 {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 /* header */
+header {
+  border-bottom: 1px solid #e7e9fc;
+}
 
 header .container {
   display: flex;
@@ -162,6 +169,7 @@ header .container {
 }
 /* section-2 */
 .item-list-skills {
+  width: calc((100% - 24px*3) / 4);
   width: 264px;
 }
 .visually-hidden {
@@ -173,6 +181,7 @@ header .container {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+  white-space: nowrap;
 }
 .list-of-skills {
   display: flex;
@@ -180,6 +189,7 @@ header .container {
   justify-content: center;
 }
 .title {
+  margin-bottom: 72px;
   text-align: center;
   color: #2e2f42;
   font-family: Roboto;
@@ -191,7 +201,6 @@ header .container {
   text-transform: capitalize;
 }
 .list_title {
-  text-align: center;
   margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
@@ -207,16 +216,55 @@ header .container {
   color: #434455;
 }
 /* section 3 our team */
+.list-ourteam {
+  display: flex;
+  gap: 24px;
+}
+.list_title_team {
+  margin-top: 32px;
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.text_title_team {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 .item_list {
+  width: calc((100% - 24px*3) / 4);
+  width: 264px;
+    display: inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
   background-color: #ffffff;
+  padding-bottom: 32px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .fone {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 /* section 4 */
+.list-folio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.item_list_folio {}
+
+
+
 
 /* footer */
 
