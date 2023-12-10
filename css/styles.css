@@ -43,9 +43,9 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
-.section-2,
-.section-3,
-.section-4 {
+
+
+.section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -127,7 +127,7 @@ header .container {
 }
 
 /* section-1 */
-.section-1 {
+.difpadding {
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
