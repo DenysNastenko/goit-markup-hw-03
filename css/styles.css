@@ -76,7 +76,13 @@ header .container {
 .logo_header {
   margin-left: 0;
   margin-right: 76px;
-  display: inline-flex; align-items: cente
+  display: inline-flex;
+  align-items: center;
+}
+  
+  
+  
+  
 
 .studio_header {
   color: #2e2f42;
