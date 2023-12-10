@@ -159,7 +159,12 @@ header .container {
 .background {
   background-color: #2e2f42;
 }
+.container-solutions {
+  padding: 188px 472px 292px;
+  
+}
 .solutions {
+ width: 496px;
   color: #ffffff;
   text-align: center;
   font-size: 56px;
@@ -169,6 +174,7 @@ header .container {
 }
 /* button */
 .btn {
+  
   cursor: pointer;
   color: #ffffff;
   background-color: #4d5ae5;
