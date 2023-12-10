@@ -63,7 +63,7 @@ p {
 
 }
 .section-2, .section-4 {
-  padding: 120px;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 /* header */
@@ -160,7 +160,7 @@ header .container {
   background-color: #2e2f42;
 }
 .container-solutions {
-  padding-top: 188px;
+  padding-top: 191px;
   padding-bottom:185px;
   
   
@@ -198,6 +198,25 @@ header .container {
   background-color: #404bbf;
 }
 /* section-2 */
+.item-list-skills {
+  width: 264px;
+
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.list-of-skills {
+  display: flex;
+  gap: 24px;
+  justify-content:center;
+}
 .title {
   text-align: center;
   color: #2e2f42;
@@ -210,6 +229,8 @@ header .container {
   text-transform: capitalize;
 }
 .list_title {
+  text-align: center;
+  margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
