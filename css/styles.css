@@ -237,6 +237,7 @@ header .container {
   color: #2e2f42;
 }
 .text_title_team {
+  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
