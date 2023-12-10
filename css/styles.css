@@ -262,8 +262,7 @@ header .container {
 .item_list_folio {
   width: calc((100% - 24px * 2) / 3);
   padding-bottom: 32px;
-  border: 1px solid  #E7E9FC;
-
+  border: 1px solid #e7e9fc;
 }
 .list_title_folio {
   padding: 0px 16px;
@@ -283,6 +282,9 @@ header .container {
 
 .bgrnd_footer {
   background-color: #2e2f42;
+  padding-top: 101.5px;
+  padding-left: 0;
+  padding-bottom: 100px;
 }
 /* logo */
 
@@ -306,6 +308,8 @@ header .container {
 }
 
 .footer_text {
+  margin-top: 17.5px;
+  width: 264px;
   color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
