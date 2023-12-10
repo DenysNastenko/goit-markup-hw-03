@@ -259,14 +259,14 @@ header .container {
 }
 /* section 4 */
 .textbox {
-  border-top: none;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .list-folio {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
   row-gap: 48px;
 }
 .item_list_folio {
