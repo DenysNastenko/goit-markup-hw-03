@@ -6,31 +6,14 @@ body {
 img {
   display: block;
   max-width: 100%;
-  height: auto; 
+  height: auto;
   margin: 0 aut;
 }
 
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-
 .container {
-  width: 1440px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  
-  
-
-
 }
 h1,
 h2,
@@ -40,12 +23,9 @@ h5,
 h6 {
   color: #2e2f42;
   margin-top: 0;
-margin-bottom: 0;
-margin-left: auto;
-margin-right: auto;
-  
-
-
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 ul,
 ol {
@@ -53,23 +33,20 @@ ol {
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
- 
-}a {
+}
+a {
   text-decoration: none;
 }
 p {
   margin-top: 0;
   margin-bottom: 0;
-
 }
-.section-2, .section-4 {
+.section-2,
+.section-4 {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 /* header */
-
-  
-  
 
 header .container {
   display: flex;
@@ -81,36 +58,23 @@ header .container {
 .header-link {
   display: flex;
   gap: 40px;
- 
+
   padding: 24px 0;
-
-
-  
 }
 .box-link-adress {
   display: flex;
   gap: 40px;
   margin: 24px 0;
-  
-   
-  
 }
-
-
-
-
-
 
 .logo_header {
   margin-left: 156px;
   display: inline-flex;
   align-items: center;
-
 }
 .studio_header {
-  margin-right:76px;
+  margin-right: 76px;
 }
-
 
 .studio_header {
   color: #2e2f42;
@@ -138,11 +102,9 @@ header .container {
 /* telimail */
 .font_style_adrs {
   font-style: normal;
-  
 }
 
 .link-adress {
- 
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -155,22 +117,22 @@ header .container {
 }
 
 /* section-1 */
-.background {
+.section-1 {
+  padding-top: 188px;
+  padding-bottom: 188px;
   text-align: center;
   background-color: #2e2f42;
 }
 .container-solutions {
   padding-top: 191px;
-  padding-bottom:185px;
-  
-  
+  padding-bottom: 185px;
 }
 .solutions {
   margin-bottom: 48px;
   text-align: center;
-   width: 496px;
+  width: 496px;
   color: #ffffff;
-   font-size: 56px;
+  font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -179,7 +141,7 @@ header .container {
 .btn {
   padding-block: 0;
   padding-inline: 0;
-  border-width: 0; 
+  border-width: 0;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 16px 32px;
@@ -200,7 +162,6 @@ header .container {
 /* section-2 */
 .item-list-skills {
   width: 264px;
-
 }
 .visually-hidden {
   position: absolute;
@@ -215,7 +176,7 @@ header .container {
 .list-of-skills {
   display: flex;
   gap: 24px;
-  justify-content:center;
+  justify-content: center;
 }
 .title {
   text-align: center;
