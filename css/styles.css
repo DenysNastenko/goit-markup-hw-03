@@ -91,6 +91,7 @@ header .container {
 }
 
 .link {
+  display: block;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
