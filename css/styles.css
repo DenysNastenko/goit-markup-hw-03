@@ -58,8 +58,7 @@ header .container {
 }
 .header-nav {
   display: flex;
-  margin-right: 332px;
-  margin-left: auto;
+  margin-right: auto;
   align-items: center;
 }
 .header-link {
@@ -74,26 +73,18 @@ header .container {
 }
 
 .logo_header {
+  margin-right: 76px;
   color: #4d5ae5;
-font-family: Raleway, sans-serif;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-  
-  
-  
-}
-
-.studio_header {
-  color: #2e2f42;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.studio_header {
+  color: #2e2f42;
 }
 
 .link {
@@ -140,6 +131,7 @@ text-transform: uppercase;
   padding-bottom: 185px;
 }
 .solutions {
+  margin: 0 auto;
   margin-bottom: 48px;
   text-align: center;
   max-width: 496px;
@@ -314,12 +306,6 @@ text-transform: uppercase;
 }
 .studio_footer {
   color: #f4f4fd;
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .footer_text {
